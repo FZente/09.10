@@ -1,0 +1,79 @@
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.flex-container > div{
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+}
+
+.zold{
+    background-color: green;
+}
+
+.sarga{
+    background-color: yellow;
+}
+
+.lila{
+    background-color: purple;
+}
+
+.szelesites{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.small{
+    flex-grow: 1;
+}
+
+.large{
+    flex-grow: 2;
+}
+
+.szelesites > div{
+    height: 300px;
+    
+}
+
+.negyedik{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+}
+
+.negyedik > div{
+    height: 300px;
+    width: 30%;
+}
+
+#ozold{
+    order: 1;
+}
+
+#osarga{
+    order: 3;
+    flex-shrink: 0.75;
+}
+
+#olila{
+    order: 2;
+}
+
+#kiszold{
+    order: 3;
+}
+
+#nagysarga{
+    order: 2;
+}
+
+#kislila{
+    order: 1;
+}
